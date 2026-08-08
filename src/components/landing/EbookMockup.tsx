@@ -31,8 +31,7 @@ export function EbookMockup({
         src={selo.url}
         alt="Por apenas 19,90"
         loading="lazy"
-        className="animate-badge-float animate-badge-glow pointer-events-none absolute -bottom-2 -left-4 z-10 h-[22%] w-auto md:-bottom-3 md:-left-6 md:h-[20%]"
-        style={{ maxHeight: "22%" }}
+        className="animate-badge-float animate-badge-glow pointer-events-none absolute -bottom-[8%] -left-[3%] z-10 h-[24%] w-auto md:-bottom-[10%] md:-left-[4%] md:h-[26%]"
       />
     </div>
   );
