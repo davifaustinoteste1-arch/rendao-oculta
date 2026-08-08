@@ -194,19 +194,6 @@
   animation: shine-sweep 6s linear infinite;
 }
 
-@utility reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition:
-    opacity 500ms ease-out,
-    transform 500ms ease-out;
-
-  &[data-visible="true"] {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes badge-float {
   0%,
   100% {
@@ -234,6 +221,7 @@
 @utility animate-badge-glow {
   animation: badge-glow 3s ease-in-out infinite;
 }
+
 
 
 @utility btn-neon {
