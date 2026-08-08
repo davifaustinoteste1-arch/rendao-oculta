@@ -1,4 +1,5 @@
 import ebook from "@/assets/capa_do_ebook.png.asset.json";
+import selo from "@/assets/selo_preco.png.asset.json";
 
 export function EbookMockup({
   className = "",
@@ -25,6 +26,13 @@ export function EbookMockup({
           float ? "animate-float-slow" : ""
         }`}
         style={{ transform: "perspective(1200px) rotateY(-8deg) rotateX(2deg)" }}
+      />
+      <img
+        src={selo.url}
+        alt="Por apenas 19,90"
+        loading="lazy"
+        className="animate-badge-float animate-badge-glow pointer-events-none absolute -bottom-2 -left-4 z-10 h-[22%] w-auto md:-bottom-3 md:-left-6 md:h-[20%]"
+        style={{ maxHeight: "22%" }}
       />
     </div>
   );
