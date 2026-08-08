@@ -207,6 +207,35 @@
   }
 }
 
+@keyframes badge-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes badge-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 6px color-mix(in oklab, var(--neon) 35%, transparent));
+  }
+  50% {
+    filter: drop-shadow(0 0 14px color-mix(in oklab, var(--neon) 55%, transparent));
+  }
+}
+
+@utility animate-badge-float {
+  animation: badge-float 3s ease-in-out infinite;
+}
+
+@utility animate-badge-glow {
+  animation: badge-glow 3s ease-in-out infinite;
+}
+
+
 @utility btn-neon {
   display: inline-flex;
   align-items: center;
