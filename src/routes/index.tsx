@@ -341,41 +341,6 @@ function Index() {
         </div>
       </section>
 
-      {/* DEPOIMENTOS */}
-      <section className="px-5 py-20 md:py-28">
-        <div className="mx-auto max-w-5xl">
-          <Reveal>
-            <h2 className="text-center text-3xl font-bold sm:text-4xl">
-              Quem já começou a buscar uma nova renda
-            </h2>
-          </Reveal>
-          <Reveal delay={60}>
-            <p className="mt-4 text-center text-xs tracking-widest text-muted-foreground uppercase">
-              Conteúdo demonstrativo (placeholder) — sem avaliações reais publicadas
-            </p>
-          </Reveal>
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
-            {TESTIMONIALS.map((t, i) => (
-              <Reveal key={i} delay={i * 120}>
-                <article className="h-full rounded-2xl border border-border bg-[#080808] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-neon/40">
-                  <div className="flex items-center gap-3">
-                    <span className="grid h-11 w-11 place-items-center rounded-full border border-neon/40 bg-neon/10 text-sm font-semibold text-neon">
-                      {t.initials}
-                    </span>
-                    <div>
-                      <p className="text-sm font-semibold">{t.name}</p>
-                      <p className="text-xs text-neon">★★★★★</p>
-                    </div>
-                  </div>
-                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">"{t.text}"</p>
-                </article>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
       <section className="px-5 py-20 md:py-28">
         <div className="mx-auto max-w-3xl">
           <Reveal>
