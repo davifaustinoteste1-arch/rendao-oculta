@@ -69,25 +69,6 @@ const FEATURES = [
   },
 ];
 
-const TESTIMONIALS = [
-  {
-    name: "Nome do cliente",
-    initials: "AC",
-    text: "Depoimento demonstrativo — substitua por uma avaliação real assim que estiver disponível.",
-  },
-  {
-    name: "Nome do cliente",
-    initials: "MR",
-    text: "Depoimento demonstrativo — substitua por uma avaliação real assim que estiver disponível.",
-  },
-  {
-    name: "Nome do cliente",
-    initials: "JS",
-    text: "Depoimento demonstrativo — substitua por uma avaliação real assim que estiver disponível.",
-  },
-];
-
-const FAQ = [
   {
     q: "O que é o Renda Oculta?",
     a: "É um material digital que reúne estratégias e possibilidades para quem quer buscar uma renda extra utilizando o celular.",
