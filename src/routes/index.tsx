@@ -4,8 +4,7 @@ import { Reveal } from "@/components/landing/Reveal";
 import { Particles } from "@/components/landing/Particles";
 import { EbookMockup } from "@/components/landing/EbookMockup";
 
-// TODO: substituir pela URL real do checkout Kiwify
-const CHECKOUT_URL = "https://pay.kiwify.com.br/";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/0f2LIYx";
 
 export const Route = createFileRoute("/")({
   component: Index,
