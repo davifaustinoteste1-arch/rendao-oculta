@@ -69,7 +69,7 @@ const FEATURES = [
   },
 ];
 
-  {
+const FAQ = [
     q: "O que é o Renda Oculta?",
     a: "É um material digital que reúne estratégias e possibilidades para quem quer buscar uma renda extra utilizando o celular.",
   },
